@@ -5,3 +5,11 @@ body {
 a {
   color: #008248;
 }
+
+h4 {
+  font-weight: bolder;
+}
+
+.box {
+  text-align: center;
+}

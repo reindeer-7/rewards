@@ -2,8 +2,54 @@ body {
   font-family: Lato, serif;
 }
 
+header {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+/* Change display type to inline-block */
+ul>li {
+  display: inline-block;
+  padding: 10px
+}
+
+
 a {
   color: #008248;
+}
+
+button {
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 50px;
+  font-weight: 600;
+  /* top right bottom left */
+  padding: 7px 16px 7px 16px;
+}
+
+.menu-buttons {
+  text-transform: uppercase;
+  text-decoration-line: none;
+  font-weight: 700;
+}
+
+.green-button {
+  color: white;
+  background-color: #00754a;
+  border-style: none;
+}
+
+.white-button {
+  color: black;
+  background-color: white;
+}
+
+.black-button {
+  color: white;
+  background-color: black;
 }
 
 h4 {

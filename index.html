@@ -3,42 +3,58 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia+Sans"> -->
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,1000;1,900&display=swap');
+
+  </style>
+
   <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://kit.fontawesome.com/3e291ddc30.js" crossorigin="anonymous"></script>
+
   <title>Starbucks® Rewards</title>
 </head>
 
 <body>
   <!-- Header Section -->
   <header>
+    <!-- LOGO -->
     <div>
-      <!-- LOGO -->
       <a href="#">
-        <img src="/assets/logo.png" />
+        <img class="logo" src="/assets/logo.png" />
       </a>
-
-      <!-- <div> -->
-      <ul class="menu-buttons">
-        <li><a href="#">Menu</a></li>
-        <li><a href="">Rewards</a></li>
-        <li><a href="">Gift Cards</a></li>
-      </ul>
-      <!-- </div> -->
     </div>
 
-    <div>
-      <a>Find a store</a>
+    <div class="global-menu">
+      <ul>
+        <li><a href="#">Menu</a></li>
+        <li><a class="unique-id" href="#">Rewards</a></li>
+        <li><a href="#">Gift Cards</a></li>
+      </ul>
+    </div>
+
+    <div class="aux-menu">
+      <a>
+        <i class="fa-sharp fa-solid fa-location-dot"></i> Find a store
+      </a>
+
       <button class="white-button">Sign in</button>
       <button class="black-button">Join now</button>
     </div>
+
   </header>
 
   <!-- Main Section -->
 
   <!-- When scrolling through the website, it's always visible and fixed. -->
-  <div>Starbuck's Reward</div>
+  <div class="bar">
+    <p>
+      Starbucks® Reward
+    </p>
+  </div>
 
-  <div>
+  <div class="main-section">
     <h1>Free Coffee is a tap away</h1>
     <p>Join now to start earning Rewards.</p>
 
@@ -47,14 +63,15 @@
   </div>
 
   <!-- Second Section -->
-  <div>
-    <div>
+  <div class="even_section">
+    <div class="second-section--1">
       <h2>Getting started is easy</h2>
       <p>Earn Stars and get rewarded in a few easy steps.</p>
     </div>
 
-    <div>
+    <div class="second-section--2">
       <div>
+        <img src="/assets/1.jpg" alt="One">
         <h3>Create an account</h3>
         <p>To get started, <a href="#">join now.</a> You can also <a href="#">join in the app</a> to get access to the
           full
@@ -62,6 +79,7 @@
       </div>
 
       <div>
+        <img src="/assets/2.jpg" alt="Second">
         <h3>Order and pay how you’d like</h3>
         <p>Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways.
           <a href="#">Learn how</a>
@@ -69,6 +87,7 @@
       </div>
 
       <div>
+        <img src="/assets/3.jpg" alt="Third">
         <h3>Earn Stars, get Rewards</h3>
         <p>As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as
           little as 25 Stars!</p>
@@ -115,29 +134,31 @@
   </div>
 
   <!-- Fourth Section -->
-  <div>
-    <div>
+  <div class="even_section">
+    <div class="fourth-section--1">
       <h2>Endless Extras</h2>
       <p>Joining Starbucks® Rewards means unlocking access to exclusive benefits. Say hello to easy ordering, tasty
         Rewards
         and—yes, free coffee.</p>
     </div>
 
-    <div>
+    <div class="fourth-section--2">
       <div>
+        <img src="assets/fun-freebies.jpg" alt="fun-freebies">
         <h4>Fun freebies</h4>
         <p>Not only can you earn free coffee, look forward to a birthday treat plus coffee and tea refills.</p>
         <a href="#">Learn more</a>
       </div>
 
       <div class="box">
-        <img src="https://www.starbucks.com/weblx/images/rewards/benefits/2-order-and-pay-ahead.jpg" alt="smartphone">
+        <img src="assets/order-and-pay-ahead.jpg" alt="order-and-pay-ahead">
         <h4>Order & pay ahead</h4>
         <p>Enjoy the convenience of in-store, curbside or drive-thru pickup at select stores.</p>
         <a href="#">Learn more</a>
       </div>
 
       <div>
+        <img src="assets/get-to-free-faster.jpg" alt="get-to-free-faster">
         <h4>Get to free faster</h4>
         <p>Earn Stars even quicker with Bonus Star challenges, Double Star Days and exciting games.</p>
         <a href="#">Learn more</a>
@@ -191,7 +212,6 @@
       </tr>
     </tbody>
   </table>
-
 </body>
 
 </html>

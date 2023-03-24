@@ -1,11 +1,24 @@
 body {
-  font-family: Lato, serif;
+  font-family: Sofia Sans, serif;
+  font-weight: 400;
+  margin: 0 0 0 0;
 }
+
+/* << Header section >> */
 
 header {
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
+  align-items: center;
+  padding: 0px 175px 0 74px;
+  height: 107px;
+
+}
+
+header a {
+  color: #212121;
+
 }
 
 /* Change display type to inline-block */
@@ -14,48 +27,131 @@ ul>li {
   padding: 10px
 }
 
+.logo {
+  width: 50px;
+}
 
 a {
   color: #008248;
 }
+
+/* All anchor elements located in header follow this styles */
+
 
 button {
   cursor: pointer;
   border-style: solid;
   border-width: 1px;
   border-color: black;
-  border-radius: 50px;
-  font-weight: 600;
+  border-radius: 20px;
+  font-weight: 500;
   /* top right bottom left */
   padding: 7px 16px 7px 16px;
 }
 
-.menu-buttons {
+.global-menu {
+  font-size: 1rem;
   text-transform: uppercase;
-  text-decoration-line: none;
+
+}
+
+.global-menu a {
+  text-decoration-line: none !important;
+  letter-spacing: 1.4px;
+  font-weight: 800 !important;
+}
+
+.unique-id {
+  box-shadow: inset 0px -7px 0px #00754a;
+  /* box-shadow: 1px 1px 0 1em #f4aab9, 2px 2px 0 2em #66ccff; */
+  padding: 0 0 43px 0;
+}
+
+.aux-menu {
+  margin-left: auto;
+
+}
+
+.aux-menu i {
+  padding-right: 8.5px;
+}
+
+.aux-menu a {
+  margin-right: 42px;
   font-weight: 700;
 }
+
 
 .green-button {
   color: white;
   background-color: #00754a;
   border-style: none;
+  font-weight: 600;
 }
 
 .white-button {
   color: black;
   background-color: white;
+  margin-right: 16px;
+  font-weight: 600;
 }
 
 .black-button {
   color: white;
   background-color: black;
+  font-weight: 600;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  background-color: #1e3932;
+  color: white;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 800 !important;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.bar p {
+  padding: 0;
+  margin: 0;
+  margin-left: 174px;
+}
+
+/* Main Section */
+
+.main-section {
+  background-image: url('/assets/background.png');
+  /* margin: initial; */
+  padding: 100px 0 100px 0;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 h4 {
   font-weight: bolder;
 }
 
-.box {
+/* Second Section */
+.even_section {
   text-align: center;
+}
+
+.second-section--2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-section--2 {
+  display: flex;
+  justify-content: space-between;
 }
